@@ -7,15 +7,15 @@
 
   const dispatch = createEventDispatcher();
 
-  function handleEditTodo(event) {
+  function handleEditTodo(event:any) {
     dispatch('editTodo', event.detail);
   }
 
-  function handleToggleTodo(event) {
+  function handleToggleTodo(event:any) {
     dispatch('toggleTodo', event.detail);
   }
 
-  function handleDeleteTodo(event) {
+  function handleDeleteTodo(event:any) {
     dispatch('deleteTodo', event.detail);
   }
 </script>
